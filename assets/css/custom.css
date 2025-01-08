@@ -1024,7 +1024,56 @@ a:hover {
     font-weight: 300;
     margin: 10px 0 0;
 }
-
+/* whattappicon */
+.floatingg-icon {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    background-color: #25D366;
+    z-index: 9;
+    bottom: 14px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #999;
+}
+.tochatbe-icon-whatsapp {
+    position: absolute;
+    font-size: 54px;
+    padding: 1px;
+    top: -12px;
+}
+/* back to top */
+.back-to-top.show {
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0);
+}
+.back-to-top:hover {
+    color: #fff !important;
+}
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.back-to-top svg {
+    width: 24px;
+    height: 24px;
+}
 /*MEDIA QUERIES*/
 
 @media (max-width: 991px) {
