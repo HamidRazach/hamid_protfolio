@@ -548,7 +548,9 @@ a:hover {
 }
 
 /*PORTFOLIO*/
-
+.btn.btn-1:focus {
+    box-shadow: none !important;
+}
 .sortBtn {
     margin: 0 auto;
 }
