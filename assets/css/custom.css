@@ -483,7 +483,9 @@ a:hover {
 .service-item:hover {
     background-color: var(--main-color);
 }
-
+.service-item:hover p {
+    color: var(--white) !important;
+}
 .service-item .icon {
     height: 60px;
     width: 60px;
